@@ -12,7 +12,7 @@ int main(void)
    for (int i = 0; i < 6; i++) {
       billsCount = value / bills[i];
       value %= bills[i];
-      printf("$%i bills: %i\n", bills[i], billsCount);
+      printf("$%-2i bills: %i\n", bills[i], billsCount);
    }
 
    return 0;
