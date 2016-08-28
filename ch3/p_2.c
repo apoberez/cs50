@@ -3,7 +3,7 @@
 int main(void)
 {
    int number, month, day, year;
-   float price;
+   loat price;
    printf("Enter item number: ");
    scanf("%i", &number);
    printf("Enter unit price: ");
